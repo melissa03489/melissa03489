@@ -47,4 +47,28 @@ LinkedList: [Data Structures - Array]
 LinkedList: [Data Structure - Array -> Variable Type - Integer]
 LinkedList: [Data Structure - Array -> Variable Type - Integer -> Sorting Algorithm - Bubble Sort]
 
-codi
+//coding problem 5
+//groceryStacks.js
+const groceries = [];
+const maxItems = (5);
+function peek() {if (groceries.length === 0)};
+console.log("The Stack is empty");
+console.log('Top item:{groceries[groceries.length - 1]});
+push(item);
+if (groceries.length < maxItems);
+groceries.push(item);
+console.log('{item} has been added to the stack');
+console.log("The stack is full.Cannot add more items")};
+console.log("Updated stack:", groceries);
+pop();
+if (groceries.length === 0);
+console.log("The stack is empty.Nothing to remove");
+const removedItem = groceries.pop();
+console.log('{removedItem} has been removed from the stack');
+peek();
+console.log("Updated stack:", groceries);
+for(let i = 0; i < maxItems; i++);
+{const item = prompt('Enter grocery item {i + 1}:');push(item)};
+
+//coding problem 6
+//sortingAlgoBubble.js
