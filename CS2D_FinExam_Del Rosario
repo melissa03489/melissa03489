@@ -1,3 +1,17 @@
+//coding problem 1
+//palindrome.js
+let string1 = prompt("RACECAR");
+lrt string2 = prompt("RECORDER");
+function reverseString(str) {return str.split(''). reverse ().join('')};
+console.log("Original String 1:",string1);
+console.log("Reversed String 1:", reversedString(string1));
+console.log("Original String 2:",string2);
+console.log("Reversed String 2:", reversedString(string2));
+Original String 1: RACECAR 
+Reversed String 1: RACECAR 
+Original String 2: RECORDED
+Reversed String 2: RECORDED
+
 //coding problem 2
 //sortArray.js
 let numbers = prompt("24","65","21","5","9","32","42","80","57");
@@ -8,10 +22,29 @@ console.log("Sorted Numbers (descending):", sortedNumbers); = (80,65,57,42,32,24
 let sortedNames = ["Zenvo","Erica","Jordie","Alicia","Redon"];
 console.log("Sorted Names (alphabetically arrange):", sortedNames); = ("Alicia","Erica","Jordie","Redon","Zenvo"];
 
-//coding problem 2
+//coding problem 3
 //mdArray.js
 let subArray1 = ["Genevieve","Juan","Luna","Gabriel","Elise"];
 let subArray2 = [24,65,21,5,9];
 //restructured the arrays 
 let restructuredArray = subArray1.map((name,index) => [name,subArray2[index]]);
 console.log(subArray); = ['Genevieve',24],['Juan',64],['Luna',21],['Gabriel',5],['Elise',9];
+
+//coding problem 4
+//lloNodeListing.js
+class Node {constructor(value)};
+class LinkedList {constructor(value)};
+append(value){const newNode = new Node(value);
+else{let current = this.head};
+{let current =this.head};,{const elements = []};,{while(current!==null};
+{elements.push(current.value); current.next};
+console.log(LinkedList:[{elements.join("->")}]’)};
+const linkedList = new LinkedList();
+linkedList.append("Data Structures - Array");
+linkedList.append("Variable Type - Integer");
+linkedList.append("Sorting Algorithm - Bubble Sort");
+LinkedList: [Data Structures - Array]
+LinkedList: [Data Structure - Array -> Variable Type - Integer]
+LinkedList: [Data Structure - Array -> Variable Type - Integer -> Sorting Algorithm - Bubble Sort]
+
+codi
